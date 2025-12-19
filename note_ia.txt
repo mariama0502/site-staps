@@ -1,0 +1,6 @@
+J’ai utilisé ChatGPT pour m’aider à créer la structure HTML du site,
+rédiger une première version des contenus et proposer un style CSS.
+
+J’ai ensuite modifié manuellement les textes, reformulé plusieurs phrases,
+ajouté des informations personnelles et adapté le projet au contexte
+du Master STAPS GitHub.
