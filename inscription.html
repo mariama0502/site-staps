@@ -1,14 +1,64 @@
-<h1>Inscription</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription – Journée Sport et Santé Universitaire</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<form>
-    <label>Nom :</label><br>
-    <input type="text"><br><br>
+<!-- Menu de navigation -->
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="evenement.html">Événement</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="infos.html">Infos pratiques</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+    </ul>
+</nav>
 
-    <label>Prénom :</label><br>
-    <input type="text"><br><br>
+<main>
+    <h1>📝 Inscription à la Journée Sport et Santé Universitaire</h1>
 
-    <label>Email :</label><br>
-    <input type="email"><br><br>
+    <section>
+        <p>
+            Merci de remplir le formulaire ci-dessous pour vous inscrire à la Journée Sport et Santé Universitaire.
+            Toutes les informations sont nécessaires pour participer aux activités.
+        </p>
 
-    <input type="submit" value="S'inscrire">
-</form>
+        <form action="#" method="post">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="tel">Téléphone :</label><br>
+            <input type="tel" id="tel" name="tel"><br><br>
+
+            <label for="niveau">Niveau sportif :</label><br>
+            <select id="niveau" name="niveau">
+                <option value="debutant">Débutant</option>
+                <option value="intermediaire">Intermédiaire</option>
+                <option value="avance">Avancé</option>
+            </select><br><br>
+
+            <label for="commentaire">Commentaires :</label><br>
+            <textarea id="commentaire" name="commentaire" rows="4" placeholder="Allergies, remarques, etc."></textarea><br><br>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Projet de site web statique – Master 2 STAPS MELS</p>
+</footer>
+
+</body>
+</html>
